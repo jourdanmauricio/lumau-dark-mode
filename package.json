@@ -1,7 +1,6 @@
 {
   "name": "@lumau/dark-mode",
-  "private": true,
-  "version": "1.0.0",
+  "version": "1.0.5",
   "type": "module",
   "files": [
     "dist"
@@ -17,7 +16,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@lumau/dark-mode": "file:lumau-dark-mode-1.0.0.tgz",
     "lit": "^2.7.6"
   },
   "devDependencies": {
