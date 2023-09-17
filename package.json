@@ -1,0 +1,38 @@
+{
+  "name": "@lumau/dark-mode",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/dark-mode.js",
+  "module": "./dist/dark-mode.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lumau/dark-mode": "file:lumau-dark-mode-1.0.0.tgz",
+    "lit": "^2.7.6"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "keywords": [
+    "Lumau",
+    "Dark Mode",
+    "Lit component"
+  ],
+  "author": "Mauricio Jourdan <jourdanmauricio@gmail.com>",
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jourdanmauricio/lumau-dark-mode"
+  },
+  "homepage": "https://github.com/jourdanmauricio/lumau-dark-mode"
+}
